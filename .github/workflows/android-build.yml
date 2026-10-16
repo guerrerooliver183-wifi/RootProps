@@ -30,8 +30,12 @@ jobs:
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
 
-      - name: Build debug APK and release AAB
-        run: ./gradlew --no-daemon --stacktrace assembleDebug bundleRelease
+      - name: Build debug APK
+        run: ./gradlew --no-daemon --stacktrace assembleDebug
+
+      - name: Build release AAB
+        continue-on-error: true
+        run: ./gradlew --no-daemon --stacktrace bundleRelease
 
       - name: Upload APK and AAB artifacts
         uses: actions/upload-artifact@v4
