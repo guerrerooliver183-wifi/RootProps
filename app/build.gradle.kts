@@ -117,12 +117,7 @@ android {
             force("org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.3.21")
             force("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.3.21")
     
-            // Force specific AndroidX versions to avoid conflicts
-            force("androidx.collection:collection:1.4.2")
-            force("androidx.annotation:annotation:1.8.1")
-            force("androidx.core:core-ktx:1.8.0")
-            force("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")
-            force("androidx.collection:collection-ktx:1.4.2")
+            // Let Google Maven resolve AndroidX versions compatible with Material 3 Expressive.
         }
     }
 }
