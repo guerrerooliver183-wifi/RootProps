@@ -14,11 +14,14 @@
     <string name="root_status_description">Esto solo comprueba si existe un archivo su conocido. No confirma permisos root ni ejecuta comandos privilegiados.</string>
     <string name="root_status_description_en">This only checks for a known su file. It does not confirm root permission or run privileged commands.</string>
     <string name="safety_title">Antes de continuar</string>
+    <string name="safety_title_en">Before you continue</string>
     <string name="system_warning">Modificar propiedades del sistema puede causar fallos o impedir que el dispositivo arranque. Esta versión es informativa y no cambia build.prop ni archivos del sistema.</string>
     <string name="system_warning_en">Changing system properties can cause failures or prevent a device from booting. This version is informational and does not change build.prop or system files.</string>
     <string name="tools_title">Herramientas</string>
+    <string name="tools_title_en">Tools</string>
     <string name="features_disabled">Herramientas del sistema no disponibles todavía</string>
     <string name="features_disabled_en">System tools are not available yet</string>
     <string name="footer_note">Material You · Color dinámico en Android 12+ · El tema sigue el modo claro/oscuro del sistema.</string>
+    <string name="footer_note_en">Material You · Dynamic color on Android 12+ · Theme follows system light/dark mode.</string>
     <string name="language_toggle">Cambiar idioma / Change language</string>
 </resources>
